@@ -11,7 +11,7 @@ const ProjectCard = ({ name, description, tech, github, url, image }) => {
     objectPosition: '50% 50%',
     position: 'relative',
     isolation: 'isolate',
-    padding: '1rem'
+    padding: '1rem',
   }
 
   return (
