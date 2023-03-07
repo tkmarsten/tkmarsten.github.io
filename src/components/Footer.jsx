@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <h5>Tiarnan Marsten 2022</h5>
+      <h5>Tiarnan Marsten 2023</h5>
       <div className="footer-links">
         <a href="mailto:tkmarsten@gmail.com">
           <FiMail size={size} />

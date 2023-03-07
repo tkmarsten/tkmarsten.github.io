@@ -1,16 +1,16 @@
 [
   {
     "name": "Kent Kendo Club",
-    "description": "Website for my martial arts club. The website was created as a way to provide important information to new and existing students.",
-    "tech": ["React", "Bootstrap"],
+    "description": "A website for the Kent Kendo martial arts club that was created as a central location to provide information about kendo and the club to new and existing students.",
+    "tech": ["React", "ChakraUI"],
     "github": "https://github.com/tkmarsten/kentkendo-website",
     "url": "https://www.kentkendo.org/",
     "image": "kentkendo.png"
   },
   {
     "name": "Federal Way Kendo Club",
-    "description": "Website for my martial arts club. The website was created as a way to provide important information to new and existing students.",
-    "tech": ["React", "Bootstrap"],
+    "description": "A website for the Federal Way Kendo martial arts club that was created as a central location to provide information about kendo and the club to new and existing students.",
+    "tech": ["React", "ChakraUI"],
     "github": "https://github.com/tkmarsten/fwkendo-website",
     "url": "https://www.federalwaykendo.org/",
     "image": "fwpreview.png"
@@ -24,18 +24,11 @@
   },
   {
     "name": "What The Shmup",
-    "description": "A shoot 'em up set in the future. Progress through three levels and collect power ups along the way to help on your journey.",
+    "description": "A shoot 'em up set in the future. Progress through three levels and collect power ups along the way to help on your journey. Acted as project lead, created sprites, levels, and did level balancing.",
     "tech": ["JavaScript", "Piskel", "Bfxr"],
     "github": "https://github.com/amn34/491-Bullet-Hell",
     "url": "https://amn34.github.io/491-Bullet-Hell/",
     "image": "shmup.png"
-  },
-  {
-    "name": "Discord Bot",
-    "description": "A Discord bot that has basic commands that show information about the server and the club.",
-    "tech": ["Discord", "DiscordJS", "JavaScript"],
-    "github": "https://github.com/tkmarsten/kendo-bot",
-    "image": "discord.png"
   },
   {
     "name": "LyricalLetho",
