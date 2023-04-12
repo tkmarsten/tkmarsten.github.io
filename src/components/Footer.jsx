@@ -6,18 +6,18 @@ const Footer = () => {
 
   return (
     <footer>
-      <h5>Tiarnan Marsten 2023</h5>
+      <h5>Tiarnan Marsten &copy; 2023</h5>
       <div className="footer-links">
-        <a href="mailto:tkmarsten@gmail.com">
+        <a href="mailto:tkmarsten@gmail.com" className='fancy-link'>
           <FiMail size={size} />
         </a>
-        <a href="https://github.com/tkmarsten" target="_blank" rel="noreferrer">
+        <a href="https://github.com/tkmarsten" className='fancy-link' target="_blank" rel="noreferrer">
           <FiGithub size={size} />
         </a>
-        <a href="https://www.linkedin.com/in/tkmarsten/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/tkmarsten/" className='fancy-link' target="_blank" rel="noreferrer">
           <SiLinkedin size={size} />
         </a>
-        <a href="https://leetcode.com/tkmarsten/" target="_blank" rel="noreferrer">
+        <a href="https://leetcode.com/tkmarsten/" className='fancy-link' target="_blank" rel="noreferrer">
           <SiLeetcode size={size} />
         </a>
       </div>

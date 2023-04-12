@@ -1,10 +1,10 @@
 import data from '../data/projects.json'
-import Project from './ProjectCard'
+import Project from './Project'
 
-const Projects = () => {
+const Portfolio = () => {
   return (
     <section className="projects" id="project">
-      <h3>Projects</h3>
+      <h3>Portfolio</h3>
       {data.map((project) => (
         <Project key={project.name} name={project.name} description={project.description} tech={project.tech} github={project.github} url={project.url} image={project.image} />
       ))}
@@ -12,4 +12,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Portfolio

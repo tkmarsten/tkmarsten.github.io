@@ -3,7 +3,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
 import About from './components/About'
-import Projects from './components/Projects'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <div className="home" id="top">
         <Banner />
         <About />
-        <Projects />
+        <Portfolio />
       </div>
       <Footer />
     </div>

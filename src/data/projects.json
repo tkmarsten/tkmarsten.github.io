@@ -2,7 +2,7 @@
   {
     "name": "Kent Kendo Club",
     "description": "A website for the Kent Kendo martial arts club that was created as a central location to provide information about kendo and the club to new and existing students.",
-    "tech": ["React", "ChakraUI"],
+    "tech": ["React", "Vite"],
     "github": "https://github.com/tkmarsten/kentkendo-website",
     "url": "https://www.kentkendo.org/",
     "image": "kentkendo.png"
@@ -10,7 +10,7 @@
   {
     "name": "Federal Way Kendo Club",
     "description": "A website for the Federal Way Kendo martial arts club that was created as a central location to provide information about kendo and the club to new and existing students.",
-    "tech": ["React", "ChakraUI"],
+    "tech": ["React", "Vite"],
     "github": "https://github.com/tkmarsten/fwkendo-website",
     "url": "https://www.federalwaykendo.org/",
     "image": "fwpreview.png"
