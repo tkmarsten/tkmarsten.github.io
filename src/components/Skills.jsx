@@ -1,6 +1,6 @@
 import data from "../data/skills.json"
 
-const About = () => {
+const Skills = () => {
   return (
     <section className="about" id="about">
       <h3>Skills</h3>
@@ -18,4 +18,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills

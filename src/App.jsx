@@ -1,22 +1,23 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import Banner from './components/Banner'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
+import Home from './views/Home'
+import About from './views/About'
 
 function App() {
 
   return (
-    <div className="App">
-      <Nav />
-      <div className="home" id="top">
-        <Banner />
-        <About />
-        <Portfolio />
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </BrowserRouter>
   )
 }
 

@@ -72,8 +72,10 @@ section {
 }
 
 .banner {
-  min-height: 100svh;
-  min-height: 100vh;
+  min-height: 90svh;
+  min-height: 90vh;
+  display: grid;
+  place-content: center;
 }
 
 .navbar {
