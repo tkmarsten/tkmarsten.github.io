@@ -1,13 +1,13 @@
 import Banner from '../components/Banner'
 import Skills from '../components/Skills'
-import Portfolio from '../components/Portfolio'
+import Projects from '../components/Projects'
 
 const Home = () => {
   return (
-    <div className="home" id="top">
+    <div className='home'>
       <Banner />
       <Skills />
-      <Portfolio />
+      <Projects />
     </div>
   )
 }
