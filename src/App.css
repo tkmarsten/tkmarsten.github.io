@@ -39,7 +39,7 @@ section {
 }
 
 .App {
-  width: min(100% - 30px, 70%);
+  width: 80%;
   margin-inline: auto;
 }
 
